@@ -1,0 +1,453 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+     
+}
+main{
+    width: 100%;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#top
+
+
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+ 
+
+   
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    
+    
+}
+.main{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+
+}
+nav img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    
+    
+    
+    
+}
+
+#main-page{
+    width: 100%;
+    height: 500px;
+    z-index: -2;
+   
+    display: flex;
+ 
+}
+.main-left{
+ 
+  
+    width: 45%;
+    height: 100%;
+   
+    padding-top: 10px;
+    padding-left: 70px;
+}
+.main-left h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+.main-right{
+    width: 55%;
+    height: 100%;
+    
+}
+#Buttons-main{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.btn1{
+    width: 130px;
+    height: 38px;
+    color: white;
+    border: none;
+    background-color: #f89646;
+    font-size: 18px;
+
+}
+.btn2{
+    width: 130px;
+    margin-left: 10px;
+    height: 38px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    background-color: #6bb7be;
+}
+#main2{
+    padding-left: 30px;
+}
+#main2 span{
+    font-size: 18px;
+}
+#items{
+    padding:30px auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+ 
+}
+.item{
+    width: 33%;
+    height:100%;
+     
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.item img{
+   
+    width: 190px;
+    height: 190px;
+}
+.item-n{
+    font-size: 20px;
+    align-items: flex-start;
+    width: 65%;
+    text-transform: uppercase;
+}
+.price {
+    margin-top: 20px;
+    width: 100%;
+    display: flex; /* Enable flexbox */
+    justify-content: space-around; /* Distribute items evenly */
+}
+.buy{
+    color: #6bb7be;
+}
+#about{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+.about-left{
+    width: 50%;
+    height:500px ;
+    margin-left: 30px;
+   
+}
+.about-right{
+    width: 50%;
+    height: 500px;
+   
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.about-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 40%;
+    display: flex;
+    align-items: flex-start;
+}
+.about-para{
+    margin-left: 50px;
+
+     
+}
+.read{
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 35px;
+    height: 38px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    background-color: #6bb7be;
+
+}
+#cards{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+}
+.blog-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.card-div{
+    margin-top: 50px;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.card{
+    
+    width: 27%;
+    height: 460px;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.card h1{
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.card span{
+    margin-left: 20px;
+   
+}
+.card-btn{
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 38px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    background-color: #6bb7be;
+
+}
+#testimonial{
+    display: flex;
+    flex-direction: column;
+    padding: 40px auto;
+    height: 400px;
+    width: 100%;
+
+}
+#testimonial h2{
+    font-weight: bold;
+    margin: 30px auto;
+    font-size: 40px;
+}
+.test-card{
+    width: 500px;
+    height: 200px;
+    display: flex;
+   
+    margin: 30px auto;
+    box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px;    
+}
+.test-card img{
+   width: 130px;
+   margin-top: 20px ;
+   margin-left: 15px;
+   border-radius: 100px;
+   border: 10px solid #6bb7be;
+
+
+}
+.img-test-div{
+    width: 40%;
+}
+.test-content{
+    margin-top: 50px;
+}
+.test-name{
+    font-weight: bold;
+    color: #6bb7be;
+    
+    font-size: 20px;
+}
+
+.test-title{
+
+    font-family:  Poppins, sans-serif;;
+
+}
+.test-btns{
+    margin: 10px auto;
+
+}
+.test-btns button{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: #6bb7be;
+}
+#contact{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(235, 234, 233);
+    
+    
+}
+#contact h2{
+    font-size: 30px;
+    margin-left: 30px;
+}    
+.contact-left{
+    width: 100%;
+    height: 100%;
+    margin-left: 30%;
+   
+    display: flex;
+    flex-direction: column;
+}
+.contact-left input{
+    width: 350px;
+    margin-left: 30px;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.contact-left button{
+    width: 100px;
+    height: 40px;
+    background-color: #6bb7be;
+    color: white;
+
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#footer{
+    width: 90%;
+    margin: 30px auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+}
+.footer-top{
+    width: 100%;
+    height: 30%;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.footer-top div{
+    margin-top: 30px;
+}
+.footer-span{
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.footer-bottom
+{  
+    height: 100%;
+    display: flex;
+    width: 100%;
+
+    
+}
+.footer-bottom1{
+     width: 33%;
+     height: 100%;
+    
+     color: white;
+     margin-left: 20px;
+     display: flex;
+     flex-direction: column;
+}
+.footer-bottom1 span{
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.footer-bottom1 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom2{
+    width: 33%;
+    height: 100%;
+ 
+    color: white;
+    margin-left: 20px;
+  
+}
+.footer-bottom2img1{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-bottom2img1 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.footer-bottom2img2 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer-bottom2img2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-bottom3{
+    width: 33%;
+    height: 100%;
+  
+    color: white;
+    margin-left: 20px;
+}
+.footer-bottoms{
+    display: flex;
+}
+.emailenter{
+    width: 240px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.subscribe{
+    width: 100px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: #6bb7be;
+    border: none;
+    color: white;
+    margin-left: 20px;
+}
